@@ -19,7 +19,7 @@ sail up -d
 sail npm install @vitejs/plugin-vue --save-dev
 ```
 
-## App.vueの作成
+## App.vueコンポーネントの作成
 resources/js/componentsにApp.vueを作成
 
 ```vue
