@@ -2,10 +2,14 @@
 
 ## sailでプロジェクトを作成
 
+aliasの追加
+```.bashrc
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+```
+
 ```bash
 curl -s https://laravel.build/practice-sail-laravel9-and-vue3 | bash
 cd practice-sail-laravel9-and-vue3
-alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
 sail up -d
 ```
 
