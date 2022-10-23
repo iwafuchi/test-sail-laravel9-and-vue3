@@ -28,7 +28,7 @@ resources/js/componentsにApp.vueを作成
 </template>
 ```
 
-## app.jsでApp.vueをインポートする
+## app.jsにApp.vueをインポートする
 
 ```js
 import './bootstrap';
